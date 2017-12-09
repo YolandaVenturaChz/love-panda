@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , sans-serif;
+    color: whitesmoke;
+}
+ 
+header {
+    background: #F78e69;    
+    padding-right: 60px;
+    text-align: right; 
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 56px;
+    padding-bottom: 6px;
+}
+
+.panda1 .part1{
+    background: #abe188;
+    border-bottom: 15px solid #F78e69;
+    border-top: 15px solid #F78e69;
+    padding: 35px;
+    margin-top: -140px;
+    position: relative;
+}
+
+.panda1 .part1 .box1 {
+    background: #F78e69;
+    font-size: 14px;
+    margin-left: 30%;
+    padding: 31px;
+    text-align: center;
+    width: 40%;
+}   
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.panda2 .part2{
+    background: #abe188;
+    border-bottom: 15px solid #F78e69;
+    border-top: 15px solid #F78e69;
+    padding: 35px;
+    margin-top: -190px;
+    position: relative;
+}
+
+.panda2 .part2 .box2 {
+    display: flex;
+    margin-left: 12%;
+    padding: 30px;
+
+} 
+
+.panda2 .part2 h2 {
+    text-align: center;
+    padding-bottom: 45px;
+    font-size: 45px;
+}
+
+.panda2 .part2 .box2 img {
+    border: 10px solid whitesmoke;
+    margin-right: 45px;
+}
+
+.footer {
+    background: #F78e69;
+    height: 70px;
+    text-align: right;
+    margin-top: -73px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 25px 20px;
+    position: relative;
+
+}
